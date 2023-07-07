@@ -1,0 +1,87 @@
+body{
+    background-image: url('https://img.freepik.com/free-photo/vintage-close-old-morning-food_1150-1680.jpg?w=1480&t=st=1688682772~exp=1688683372~hmac=0b78ca882af5b81d2618070b31580c5b432f36660163c582a74df85991a31ff2');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    background-color: #f8d4bc;
+}
+.header, .container{
+    display: flex;
+    justify-content: center;
+}
+h1{
+    font-size: 60px;
+    background: linear-gradient(to left, #aa4b6b, #3b8d99);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-family: 'Montserrat', sans-serif;
+}
+.inputField{
+    padding: 10px;
+    width: 40%;
+    border: none;
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+.btn{
+    padding: 20px;
+    background-color: #3b8d99;
+    border: none;
+}
+.toDoContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.toDoAdded{
+    background: #9a5572;
+    list-style-type: none;
+    text-align: center;
+    font-size: 25px;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    padding: 15px;
+    width: 50%;
+    border-bottom: 1px solid #cdc7be;
+}
+.toDoCompleted{
+    background: #9dc08b;
+    color: #000000;
+    font-weight: bold;
+    text-decoration: line-through;
+    transition: all 2s ease;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media all and ( max-width: 800px){
+    h1{
+        font-size: 40px;
+        margin-top: 40px;
+    }
+}
+@media all and ( max-width: 800px){
+    h1{
+        font-size: 20px;
+    }
+    .inputField{
+        padding: 5px;
+        width: 50%;
+        font-size: 15px;
+        margin-top: 20px;
+    }
+    .btn{
+        padding: 20px;
+        margin-top: 20px;
+    }
+    .toDoAdded{
+        font-size: 15px;
+        padding: 12px;
+        width: 50%;
+        
+    }
+}
+
+
+
